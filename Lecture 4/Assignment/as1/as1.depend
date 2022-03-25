@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1648128146 source:d:\aryan\aryan, college\c codes\assign4\main.c
+	<stdio.h>
+	<stdlib.h>
+

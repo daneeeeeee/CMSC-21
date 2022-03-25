@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1647786536 source:d:\aryan\aryan, college\c codes\lec3-1\main.c
+	<stdio.h>
+	<stdlib.h>
+
