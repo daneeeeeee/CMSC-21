@@ -21,17 +21,19 @@ int main(void)
     // else statement
     else{
         printf ("Here is your calendar:\n");
+        printf ("\n");
+        printf ("    Sun   Mon  Tue   Wed   Thu   Fri   Sat\n"); // printing the days in a week to have reference
         // this code is for the position of the first date (1); where will be dependent on the value of variable start
     // for loop in where; i=1 is the initialize statement, i<start is the condition and i++ is where the loop will be updated
     // this code will run as long as the condition is true
         for (i = 1; i < start; i++){
-            printf ("    "); // putting four spaces in each number
+            printf ("      "); // putting six spaces in each number
         }
     // this section is for all the dates for one month; where will be dependent to the variable days
     // for loop in where; i=1 is the initialize statement, i<=days is the condition and i++ is where the loop will be updated
     // this code will run as long as the condition is true
         for (i = 1; i <= days; i++){
-            printf ("%4d", i); // putting fours spaces in each number to match the spaces of the first date
+            printf ("%6d", i); // putting six spaces in each number to match the spaces of the first date
             // not setting them the same will generate a chaos in the output
             if ((start + i - 1)  % 7 == 0) // condition in which will evaluate the number, since we have 7 days in a week
                 printf ("\n"); // if the number when evaluated will have no remainder the next number will proceed to the new line
